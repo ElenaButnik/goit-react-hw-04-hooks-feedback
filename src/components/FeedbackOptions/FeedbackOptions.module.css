@@ -1,0 +1,16 @@
+.button {
+  border: none;
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-weight: 700;
+  font-size: 18px;
+  background: linear-gradient(to top, #e4af9d 20%, #e4e4d8 50%, #a19887 80%);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.button:not(:last-of-type) {
+  margin-right: 10px;
+}
